@@ -302,7 +302,19 @@ button.main-content {
     /* text-align      : justify; */
     background-color   : #F7F9FA;
     border-radius      : 10px;
+    position           : relative;
 
+}
+
+.review-content>span {
+    position        : absolute;
+    z-index         : 1;
+    top             : 10px;
+    left            : 10px;
+    padding         : 3px 15px;
+    background-color: rgb(43, 52, 57, 0.8);
+    color           : white;
+    font-weight     : 600;
 
 }
 
